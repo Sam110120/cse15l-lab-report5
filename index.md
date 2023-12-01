@@ -85,10 +85,13 @@ public class ArrayTests {
     assertArrayEquals(output, input);
   }
 }
+
 ```
 
   * ListExamples.java (it contains the method implementations):
+
 ```
+
 public class ArrayExamples {
 
   // Changes the input array to be in reversed order
@@ -126,6 +129,7 @@ public class ArrayExamples {
     return sum / (arr.length - 1);
   }
 }
+
 ```
 
 * The full command line (or lines) you ran to trigger the bug
